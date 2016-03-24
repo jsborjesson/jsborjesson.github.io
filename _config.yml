@@ -6,7 +6,7 @@ title:               alcesleo
 tagline:             Yet another dev blog
 url:                 https://alcesleo.github.io/
 paginate:            1
-baseurl:             ""
+baseurl:             "http://alcesleo.github.io"
 
 # Assets
 #
