@@ -8,3 +8,5 @@ Vim has a really powerful mechanism for folding, it has lots of different comman
 * `zf` - folds the region selected by a motion or from visual mode (to fold a paragraph for example do `zfip` or `vipzf`)
 * `zo` - opens the fold under the cursor
 * `zR` - opens every fold
+
+For light, occasional use of folds, this is all you need. No settings required.
