@@ -25,6 +25,9 @@ often they work.
 * `<C-U>` removes everything before the cursor
 * `<C-K>` removes everything after the cursor
 
+_You might need to tweak the settings of your terminal emulator for the alt key
+to be sent through properly._
+
 I find these mappings much more appropriate when using a command prompt
 application, and if you ever need the full power of Vim, you can start a full
 Vim session to edit the command with `<C-X><C-E>`.
