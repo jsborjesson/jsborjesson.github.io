@@ -11,7 +11,7 @@ Here are a few tricks I use to work effectively with the Vim spell checker:
 
 * Usually though, whether you want it enabled depends on the file type you are
   editing. You can put `setlocal spell` in the appropriate
-  `vim/after/ftplugin/{filetype}.vim` directories, probably at least `markdown`
+  `vim/after/ftplugin/{filetype}.vim`, probably at least `markdown`
   and `gitcommit`.
 
 * `]s` will take you to the next misspelled word.
