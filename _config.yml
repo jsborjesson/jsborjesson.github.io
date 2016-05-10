@@ -29,3 +29,6 @@ github:
 gems:
   - jekyll-paginate
   - jekyll-gist
+
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]
