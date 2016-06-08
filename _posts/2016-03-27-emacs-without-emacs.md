@@ -5,7 +5,9 @@ title: Emacs without Emacs
 
 Vim is a very expressive language for editing text, and many other tools
 provide Vim-style key bindings to interact with them, although the Emacs-style
-key bindings are often the default.
+key bindings are often the default. (They are actually from Readline, which
+uses Emacs-ish bindings, but some of them are different, notably `<C-u>` works
+differently than in Emacs)
 
 Most Vim emulators provide very limited and inconsistent behaviour (except for,
 ironically, [Emacs](https://www.emacswiki.org/emacs/Evil)), but I also find
