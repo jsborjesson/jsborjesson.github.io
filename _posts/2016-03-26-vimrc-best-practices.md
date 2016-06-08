@@ -28,9 +28,14 @@ responsibilities is plenty.
 Vim allows you to specify chords and special keys case insensitively, I suggest
 sticking to the same style Vim itself uses:
 
-`<Esc>`, `<C-A>`, `<CR>`, `<S-Down>`
+`<Esc>`, `<C-a>`, `<CR>`, `<S-Down>`
 
 It is not always obvious, refer to `:help key-notation` when in doubt.
+
+**Update:** I've opted to use the "correct" case for the "a" in `<C-a>`, even
+though Vim does not always do this itself. Terminals cannot always distinguish
+between `C-a` and `C-A` (or `C-S-a`), but in certain places (for example
+sometimes in NeoVim) this distinction is actually made.
 
 ## Bonus: Lint your settings
 

@@ -18,16 +18,16 @@ Here are the mappings I use most frequently in `bash` or basically any command
 prompt or REPL. Try them in other programs - you might be surprised by how
 often they work.
 
-* `<C-A>` goes to the beginning of the line
-* `<C-E>` goes to the end of the line
-* `<C-F>` and `<C-B>` goes forward and backward by character
-* `<A-F>` and `<A-B>` goes forward and backward by word
-* `<C-U>` removes everything before the cursor
-* `<C-K>` removes everything after the cursor
+* `<C-a>` goes to the beginning of the line
+* `<C-e>` goes to the end of the line
+* `<C-f>` and `<C-b>` goes forward and backward by character
+* `<M-f>` and `<M-b>` goes forward and backward by word
+* `<C-u>` removes everything before the cursor
+* `<C-k>` removes everything after the cursor
 
-_You might need to tweak the settings of your terminal emulator for the alt key
-to be sent through properly._
+_You might need to tweak the settings of your terminal emulator for the
+`alt`/`meta` key to be sent through properly._
 
 I find these mappings much more appropriate when using a command prompt
 application, and if you ever need the full power of Vim, you can start a full
-Vim session to edit the command with `<C-X><C-E>`.
+Vim session to edit the command with `<C-x><C-e>`.
