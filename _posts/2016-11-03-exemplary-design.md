@@ -3,7 +3,7 @@ layout: post
 title: Exemplary design
 ---
 
-I recently wrote a simple command line tool, whose functionality is
+I recently wrote a simple command line tool, the functionality of which is
 unimpressive and uninteresting, but has some interesting design choices I would
 like to get down in writing.
 
