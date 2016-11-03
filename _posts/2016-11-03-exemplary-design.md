@@ -19,7 +19,7 @@ It detects which convention is being passed in, converts it to the convention
 you requested, and can even be part of pipelines:
 
 ```bash
-$ echo inThatCase | itc --dash -
+$ echo inThatCase | itc --dash
 in-that-case
 ```
 
