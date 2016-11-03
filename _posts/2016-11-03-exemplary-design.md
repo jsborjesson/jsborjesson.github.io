@@ -215,13 +215,15 @@ code is too clever, and that there is too much of it to solve such a simple
 problem - and they would be right, for a project of this scale it is a
 bit overkill. Here's a list of stuff that I did to make this possible:
 
-* Dynamically require every file in the `conventions/` directory
-* Automatically add all the `Convention` modules from this directory to a list of supported styles
-* Derive the name of the command line arguments from the class names
+* Dynamically require every file in the `conventions/` directory.
+* Automatically add all the `Convention` modules from this directory to a list of supported styles.
+* Derive the name of the command line arguments from the class names.
 * Generate a representation of each of these conventions based on their class names and their own `convert` implementation.
-* Use these to dynamically generate the help text of the executable
+* Use these to dynamically generate the help text of the executable.
+* Metaprogram specs to check the `matches?` method against all the other
+  conventions to make sure there's no overlap/order dependency.
 
-That is a bit of extra design work, but all of it falls on me. Anyone
+This is a bit of extra design work, but all of it falls on me. Anyone
 else wanting to touch the code in the future will have an easier time.
 
 This is what I consider to be **exemplary code**. Even without understanding
