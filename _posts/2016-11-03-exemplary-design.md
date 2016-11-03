@@ -3,9 +3,9 @@ layout: post
 title: Exemplary design
 ---
 
-I recently wrote a simple command line tool, whose function is unimpressive and
-uninteresting, but has some interesting design choices I would like to get down
-in writing.
+I recently wrote a simple command line tool, whose functionality is
+unimpressive and uninteresting, but has some interesting design choices I would
+like to get down in writing.
 
 The tool is called [in that case](https://github.com/alcesleo/in_that_case) and
 simply converts between different capitalization standards:
@@ -33,9 +33,9 @@ the capitalization styles that you need. You might think that "there's probably
 just one file with a huge if-statement, maybe I can try to extend it...".
 
 So you start poking around the project. You might think that there seems to be
-a lot of files for such a simple problem, and think that it looks too
-complicated, but nonetheless you quickly stumble upon the `conventions/` folder
-which seems to have a file for each convention it supports.
+a lot of files for such a simple problem, and that it looks too complicated,
+but nonetheless you quickly stumble upon the `conventions/` folder which seems
+to have a file for each convention it supports.
 
 
 ## Adding a new style
@@ -190,7 +190,7 @@ Options:
   --snake        Convert to snake_case.
 ```
 
-You [commit](https://github.com/alcesleo/in_that_case/commit/85039bbeb03d4ac19265517efe5d94f3b1cc00f1) your changes and move on with your life.
+Also already there apparently. You [commit](https://github.com/alcesleo/in_that_case/commit/85039bbeb03d4ac19265517efe5d94f3b1cc00f1) your changes and move on with your life.
 
 ## Epilogue / motivation
 
