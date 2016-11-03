@@ -3,8 +3,9 @@ layout: post
 title: Exemplary design
 ---
 
-I recently wrote a simple command line tool, whose function is unimpressive but
-has some interesting design choices I would like to get down in writing.
+I recently wrote a simple command line tool, whose function is unimpressive and
+uninteresting, but has some interesting design choices I would like to get down
+in writing.
 
 The tool is called [in that case](https://github.com/alcesleo/in_that_case) and
 simply converts between different capitalization standards:
