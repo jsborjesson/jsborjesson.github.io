@@ -28,7 +28,7 @@ exemplary code base. I will explain why I think it is exemplary in a second.
 
 ## Discovering the project
 
-Imagine you come across this tool, it does what you want but is lacking one of
+[Imagine you come across this tool](https://github.com/alcesleo/in_that_case), it does what you want but is lacking one of
 the capitalization styles that you need. You might think that "there's probably
 just one file with a huge if-statement, maybe I can try to extend it...".
 
