@@ -137,7 +137,7 @@ end
 
 ## eql?
 
-In Ruby, you can use any object as the key in a `Hash` (notice the capital H).
+In Ruby, you can use any object as the key in a `Hash` (note the capital H).
 
 ```ruby
 h = { "key" => "value" }
@@ -199,7 +199,7 @@ def <(other)
 end
 ```
 
-Unlike our `==`, which we want to simply say "no" when compared with something completely different, we want `<` to raise an error, because the comparison simply doesn't make sense. We cannot answer no or yes to whether a `T` is smaller than `nil` for example
+Unlike our `==`, which we want to simply say "no" when compared with something completely different, we want `<` to raise an error, because the comparison simply doesn't make sense. We cannot answer yes or no to whether a `T` is smaller than `nil` for example:
 
 ```ruby
 assert_raises(ArgumentError) { T.new(1) < nil }
