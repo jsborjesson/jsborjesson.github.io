@@ -97,6 +97,16 @@ Now we have a pretty solid implementation of equality.
 
 `equal?` determines if two objects are the **exact same instance**. You should never override this.
 
+```ruby
+
+t_one = T.new(1)
+
+t_one == T.new(1)      # => true
+t_one == t_one         # => true
+t_one.equal?(T.new(1)) # => false
+t_one.equal?(t_one)    # => true
+```
+
 ## hash
 
 Two equal objects should have the same hash code.
