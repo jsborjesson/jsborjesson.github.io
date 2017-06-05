@@ -3,6 +3,8 @@ layout: post
 title: Implementing equality in Ruby
 ---
 
+Equality in Ruby is, at first glance, deceptively simple. Overriding the `==` method will get you almost all the way there, but if you want your objects to be consistently good citizens of Ruby-land, you need to think of a few more things.
+
 ## Contents
 
 * [Skeleton](#skeleton)
@@ -15,7 +17,7 @@ title: Implementing equality in Ruby
 
 ## Skeleton
 
-We will be implementing equality on a simple class called `T`, it simply holds a value and doesn't reveal it back to us.
+We will be implementing equality on a class called `T`, it simply holds a value and doesn't reveal it back to us.
 
 ```ruby
 class T
@@ -145,7 +147,7 @@ h["key"] # => "value"
 
 "key" == "key"           # => true (they have the same value)
 "key".hash == "key".hash # => true (they have the same hash code)
-"key".equal? "key"       # => false (but they are not the same instance of String)
+"key".equal?("key")      # => false (but they are not the same instance of String)
 ```
 
 Let's make sure our `T` behaves the same way.
