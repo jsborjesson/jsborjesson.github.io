@@ -168,7 +168,7 @@ Expected: :val
   Actual: nil
 ```
 
-Turns out, `Hash` uses the both the `hash` method, and the `eql?` method to determine which value to retrieve. To fix this, all we need to do is alias our `==` implementation to `eql?`:
+Turns out, `Hash` uses both the `hash` method, and the `eql?` method to determine which value to retrieve. To fix this, all we need to do is alias our `==` implementation to `eql?`:
 
 [Reference](https://docs.ruby-lang.org/en/2.4.0/Hash.html#class-Hash-label-Hash+Keys)
 
