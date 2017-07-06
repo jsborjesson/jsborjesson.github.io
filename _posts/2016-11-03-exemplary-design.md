@@ -4,11 +4,11 @@ title: Exemplary design
 ---
 
 I recently wrote a simple command line tool, the functionality of which is
-unimpressive and uninteresting, but has some interesting design choices I would
-like to get down in writing.
+unimpressive and uninteresting, but it illustrates a principle I've had on my
+mind for a while.
 
 The tool is called [in that case](https://github.com/alcesleo/in_that_case) and
-simply converts between different capitalization standards:
+converts between different capitalization standards:
 
 ```bash
 $ itc --snake inThatCase
@@ -23,14 +23,15 @@ $ echo inThatCase | itc --dash
 in-that-case
 ```
 
-This post will discuss the architecture of this small, but in my opinion,
-exemplary code base. I will explain why I think it is exemplary in a second.
+This post will use this to discuss the topic of _Exemplary Design_. (Exemplary
+as in it setting an example, not it necessarily being good)
 
 ## Discovering the project
 
-[Imagine you come across this tool](https://github.com/alcesleo/in_that_case), it does what you want but is lacking one of
-the capitalization styles that you need. You might think that "there's probably
-just one file with a huge if-statement, maybe I can try to extend it...".
+[Imagine you come across this tool](https://github.com/alcesleo/in_that_case),
+it does what you want but is lacking one of the capitalization styles that you
+need. You might think that "there's probably just one file with a huge
+if-statement, maybe I can try to extend it...".
 
 So you start poking around the project. You might think that there seems to be
 a lot of files for such a simple problem, and that it looks too complicated,
@@ -99,7 +100,7 @@ end
 ## Change everything blindly
 
 All the files in the `conventions/` folder look pretty similar, so you decide
-to just go through what you copied and change the obvious things.
+to go through what you copied and change the obvious things:
 
 - you rename the files and every occurrence of "snake" inside them to "dot"
 - you change the 2 specs you copied to have dots instead of underscores
@@ -107,7 +108,7 @@ to just go through what you copied and change the obvious things.
   too, there's a kind of nasty looking regex, but it has an underscore in it so
   let's take that one as well (a dot in regex has to be escaped `\.`).
 
-Phew, that was really boring. But now you have some very similar looking
+Phew, that was really boring. Now you have some very similar looking
 files, with different names and very slightly changed implementations:
 
 ### Altered files:
@@ -192,7 +193,7 @@ Options:
 
 Also already there apparently. You [commit](https://github.com/alcesleo/in_that_case/commit/85039bbeb03d4ac19265517efe5d94f3b1cc00f1) your changes and move on with your life.
 
-## Epilogue / motivation
+## Motivation
 
 I wanted to write about exemplary code, and I think this project illustrates
 what that means. Not because it's particularly good, but because it sets a very
@@ -203,14 +204,14 @@ understand. Most of the time was spent mundanely copy pasting a file, going
 through it and renaming stuff. None of the rest of the project had to be
 touched at all, and in the end the diff is exactly adding a new, very boring
 looking file, and an equally boring and obvious looking spec. Most Ruby
-programmers could have probably done this in their sleep.
+programmers could probably have done this in their sleep.
 
 This kind of boring is very powerful. It is respectful of people's time. They
 do not have to go digging for code that is of no interest to them, and if you
-hand this task to a less experienced developer, chances are that he/she would
-produce exactly the same, obvious and boring code.
+hand this task to a less experienced developer, they would likely produce the
+same, obvious and boring code.
 
-One who digs a bit deeper might say that this is over engineering, that the
+One who digs a bit deeper might say that this is over-engineering, that the
 code is too clever, and that there is too much of it to solve such a simple
 problem - and they would be right, for a project of this scale it is a
 bit overkill. Here's a list of stuff that I did to make this possible:
@@ -223,8 +224,8 @@ bit overkill. Here's a list of stuff that I did to make this possible:
 * Metaprogram specs to check the `matches?` method against all the other
   conventions to make sure there's no overlap/order dependency.
 
-This is a bit of extra design work, but all of it falls on me. Anyone
-else wanting to touch the code in the future will have an easier time.
+This is a bit of extra work, but all of it falls on me. Anyone else wanting to
+touch the code in the future will have an easier time.
 
 This is what I consider to be **exemplary code**. Even without understanding
 it, it leads you down the path of making correct decisions. Writing bad code
