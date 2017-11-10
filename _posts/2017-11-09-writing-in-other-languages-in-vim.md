@@ -53,4 +53,4 @@ noremap! <M-u>o <C-k>o:
 noremap! <M-u>u <C-k>u:
 ```
 
-Note that I'm using the peculiarly named `noremap!` function, which maps them both in Insert and Command-line mode.
+Note that I'm using the peculiarly named `noremap!` function, which maps them both in Insert and Command-line mode. Command-line mode is important because you want to be able to search for foreign words.
