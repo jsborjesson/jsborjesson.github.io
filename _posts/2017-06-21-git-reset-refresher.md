@@ -16,7 +16,7 @@ maybe it will help you as well.
 
 It basically comes down to this:
 
-[reset-demystified]: https://git-scm.com/blog/2011/07/11/reset.html
+[reset-demystified]: https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified
 
 ## Overview
 
