@@ -1,0 +1,194 @@
+Country,Horizontal Stripes,Vertical Stripes,Stars,Has Moon,Has Complex Details,Has Triangle,Has Canton,Has Circle,Has Cross,Has Text,Is Red/White/Blue
+Afghanistan,,3,,no,yes,no,no,no,no,yes,no
+Albania,,,,no,yes,no,no,no,no,no,no
+Algeria,,3,1,yes,no,no,no,no,no,no,no
+Andorra,,3,,no,yes,no,no,no,no,yes,no
+Angola,2,,1,no,yes,no,no,no,no,no,no
+Antigua and Barbuda,,,1,no,no,no,no,no,no,no,no
+Argentina,3,,1,no,yes,no,no,no,no,no,no
+Armenia,3,,,no,no,no,no,no,no,no,no
+Australia,,,6,no,yes,no,yes,no,no,no,yes
+Austria,3,,,no,no,no,no,no,no,no,no
+Azerbaijan,3,,1,yes,no,no,no,no,no,no,no
+Bahamas,3,,,no,no,yes,no,no,no,no,no
+Bahrain,,2,,no,no,no,no,no,no,no,no
+Bangladesh,,,,no,no,no,no,yes,no,no,no
+Barbados,,3,,no,no,no,no,no,no,no,no
+Belarus,2,1,,no,yes,no,no,no,no,no,no
+Belgium,,3,,no,no,no,no,no,no,no,no
+Belize,3,,,no,yes,no,no,no,no,yes,no
+Benin,2,1,,no,no,no,no,no,no,no,no
+Bhutan,,,,no,yes,no,no,no,no,no,no
+Bolivarian Republic of Venezuela,3,,8,no,yes,no,no,no,no,no,no
+Bolivia,3,,,no,no,no,no,no,no,no,no
+Bosnia and Herzegovina,,,9,no,yes,no,no,no,no,no,no
+Botswana,5,,,no,no,no,no,no,no,no,no
+Brazil,,,27,no,yes,no,no,no,no,no,no
+Brunei Darussalam,,,,no,yes,no,no,no,no,no,no
+Bulgaria,3,,,no,no,no,no,no,no,no,no
+Burkina Faso,2,,1,no,no,no,no,no,no,no,no
+Burundi,,,3,no,no,no,no,no,no,no,no
+Cambodia,3,,,no,yes,no,no,no,no,no,no
+Cameroon,,3,1,no,no,no,no,no,no,no,no
+Canada,,3,,no,no,no,no,no,no,no,no
+Cape Verde,5,,10,no,no,no,no,no,no,no,yes
+Central African Republic,4,1,1,no,no,no,no,no,no,no,no
+Chad,,3,,no,no,no,no,no,no,no,no
+Chile,2,,1,no,no,no,yes,no,no,no,yes
+China,,,5,no,no,no,no,no,no,no,no
+Colombia,3,,,no,no,no,no,no,no,no,no
+Comoros,4,,4,yes,no,yes,no,no,no,no,no
+Congo,,,,no,no,no,no,no,no,no,no
+Costa Rica,5,,7,no,yes,no,no,no,no,yes,yes
+Côte d'Ivoire,,3,,no,no,no,no,no,no,no,no
+Croatia,3,,,no,yes,no,no,no,no,no,yes
+Cuba,5,,1,no,no,yes,no,no,no,no,yes
+Cyprus,,,,no,yes,no,no,no,no,no,no
+Czech Republic,2,,,no,no,yes,no,no,no,no,yes
+Democratic Republic of the Congo,,,1,no,no,no,no,no,no,no,no
+Denmark,,,,no,no,no,no,no,yes,no,no
+Djibouti,2,,1,no,no,yes,no,no,no,no,no
+Dominica,,,10,no,yes,no,no,no,yes,no,no
+Dominican Republic,,,,no,yes,no,no,no,yes,yes,yes
+Ecuador,3,,,no,yes,no,no,no,no,no,no
+Egypt,3,,,no,yes,no,no,no,no,yes,no
+El Salvador,3,,,no,yes,no,no,no,no,yes,no
+Equatorial Guinea,3,,6,no,yes,yes,no,no,no,yes,no
+Eritrea,,,,no,yes,yes,no,no,no,no,no
+Estonia,3,,,no,no,no,no,no,no,no,no
+Eswatini,5,,,no,yes,no,no,no,no,no,no
+Ethiopia,3,,1,no,no,no,no,yes,no,no,no
+Federated States of Micronesia,,,4,no,no,no,no,no,no,no,no
+Fiji,,,,no,yes,no,yes,no,no,no,yes
+Finland,,,,no,no,no,no,no,yes,no,no
+France,,3,,no,no,no,no,no,no,no,yes
+Gabon,3,,,no,no,no,no,no,no,no,no
+Georgia,,,,no,no,no,no,no,yes,no,no
+Germany,3,,,no,no,no,no,no,no,no,no
+Ghana,3,,1,no,no,no,no,no,no,no,no
+Greece,9,,,no,no,no,yes,no,yes,no,no
+Grenada,,,7,no,no,no,no,no,no,no,no
+Guatemala,,3,,no,yes,no,no,no,no,yes,no
+Guinea,,3,,no,no,no,no,no,no,no,no
+Guinea-Bissau,2,1,1,no,no,no,no,no,no,no,no
+Guyana,,,,no,no,yes,no,no,no,no,no
+Haiti,2,,,no,yes,no,no,no,no,yes,no
+Honduras,3,,5,no,no,no,no,no,no,no,no
+Hungary,3,,,no,no,no,no,no,no,no,no
+Iceland,,,,no,no,no,no,no,yes,no,yes
+India,3,,,no,yes,no,no,no,no,no,no
+Indonesia,2,,,no,no,no,no,no,no,no,no
+Iran,3,,,no,yes,no,no,no,no,no,no
+Iraq,3,,,no,yes,no,no,no,no,yes,no
+Ireland,,3,,no,no,no,no,no,no,no,no
+Israel,5,,,no,no,no,no,no,no,no,no
+Italy,,3,,no,no,no,no,no,no,no,no
+Jamaica,,,,no,no,no,no,no,no,no,no
+Japan,,,,no,no,no,no,yes,no,no,no
+Jordan,3,,1,no,no,yes,no,no,no,no,no
+Kazakhstan,,,,no,yes,no,no,no,no,no,no
+Kenya,5,,,no,yes,no,no,no,no,no,no
+Kiribati,,,,no,yes,no,no,no,no,no,no
+Kuwait,3,,,no,no,yes,no,no,no,no,no
+Kyrgyzstan,,,,no,yes,no,no,no,no,no,no
+Laos,3,,,no,no,no,no,yes,no,no,no
+Latvia,3,,,no,no,no,no,no,no,no,no
+Lebanon,3,,,no,yes,no,no,no,no,no,no
+Lesotho,3,,,no,yes,no,no,no,no,no,no
+Liberia,11,,1,no,no,no,yes,no,no,no,yes
+Libya,3,,1,yes,no,no,no,no,no,no,no
+Liechtenstein,2,,,no,yes,no,no,no,no,no,no
+Lithuania,3,,,no,no,no,no,no,no,no,no
+Luxembourg,3,,,no,no,no,no,no,no,no,no
+Madagascar,2,1,,no,no,no,no,no,no,no,no
+Malawi,3,,,no,no,no,no,no,no,no,no
+Malaysia,13,,1,yes,no,no,yes,no,no,no,yes
+Maldives,,,,yes,no,no,no,no,no,no,no
+Mali,,3,,no,no,no,no,no,no,no,no
+Malta,,2,,no,yes,no,no,no,yes,yes,no
+Marshall Islands,,,1,no,no,no,no,no,no,no,no
+Mauritania,3,,1,yes,no,no,no,no,no,no,no
+Mauritius,4,,,no,no,no,no,no,no,no,no
+Mexico,,3,,no,yes,no,no,no,no,no,no
+Moldova,,3,1,no,yes,no,no,no,no,no,no
+Monaco,2,,,no,no,no,no,no,no,no,no
+Mongolia,,3,,no,yes,no,no,no,no,no,no
+Montenegro,,,,no,yes,no,no,no,no,no,no
+Morocco,,,1,no,no,no,no,no,no,no,no
+Mozambique,5,,1,no,yes,no,no,no,no,no,no
+Myanmar,3,,1,no,no,no,no,no,no,no,no
+Namibia,,,1,no,no,no,no,no,no,no,no
+Nauru,3,,1,no,no,no,no,no,no,no,no
+Nepal,,,2,yes,no,no,no,no,no,no,yes
+Netherlands,3,,,no,no,no,no,no,no,no,yes
+New Zealand,,,4,no,no,no,yes,no,no,no,yes
+Nicaragua,3,,,no,yes,no,no,no,no,yes,no
+Niger,3,,,no,no,no,no,yes,no,no,no
+Nigeria,,3,,no,no,no,no,no,no,no,no
+North Korea,5,,1,no,no,no,no,no,no,no,yes
+North Macedonia,,,,no,no,no,no,no,no,no,no
+Norway,,,,no,no,no,no,no,yes,no,yes
+Oman,3,1,,no,yes,no,no,no,no,no,no
+Pakistan,,2,1,yes,no,no,no,no,no,no,no
+Palau,,,,no,no,no,no,yes,no,no,no
+Panama,,,2,no,no,no,no,no,no,no,yes
+Papua New Guinea,,,5,no,yes,no,no,no,no,no,no
+Paraguay,3,,1,no,yes,no,no,yes,no,yes,yes
+Peru,,3,,no,no,no,no,no,no,no,no
+Philippines,2,,1,no,no,yes,no,no,no,no,yes
+Poland,2,,,no,no,no,no,no,no,no,no
+Portugal,,2,,no,yes,no,no,no,no,no,no
+Qatar,,2,,no,no,no,no,no,no,no,no
+Republic of The Gambia,5,,,no,no,no,no,no,no,no,no
+Romania,,3,,no,no,no,no,no,no,no,no
+Russian Federation,3,,,no,no,no,no,no,no,no,yes
+Rwanda,3,,1,no,no,no,no,no,no,no,no
+Saint Kitts and Nevis,,,2,no,no,no,no,no,no,no,no
+Saint Lucia,,,,no,no,no,no,no,no,no,no
+Saint Vincent and the Grenadines,,3,,no,no,no,no,no,no,no,no
+Samoa,,,5,no,no,no,yes,no,no,no,yes
+San Marino,2,,,no,yes,no,no,no,no,yes,no
+São Tomé and Príncipe,3,,2,no,no,yes,no,no,no,no,no
+Saudi Arabia,,,,no,yes,no,no,no,no,yes,no
+Senegal,,3,1,no,no,no,no,no,no,no,no
+Serbia,3,,,no,yes,no,no,no,no,no,yes
+Seychelles,,,,no,no,no,no,no,no,no,no
+Sierra Leone,3,,,no,no,no,no,no,no,no,no
+Singapore,2,,5,yes,no,no,no,no,no,no,no
+Slovakia,3,,,no,no,no,no,no,no,no,yes
+Slovenia,3,,3,no,no,no,no,no,no,no,yes
+Solomon Islands,,,5,no,no,no,no,no,no,no,no
+Somalia,,,1,no,no,no,no,no,no,no,no
+South Africa,,,,no,no,yes,no,no,no,no,no
+South Korea,,,,no,no,no,no,no,no,no,yes
+South Sudan,5,,1,no,no,yes,no,no,no,no,no
+Spain,3,,,no,yes,no,no,no,no,yes,no
+Sri Lanka,,,,no,yes,no,no,no,no,no,no
+Sudan,3,,,no,no,yes,no,no,no,no,no
+Suriname,5,,1,no,no,no,no,no,no,no,no
+Sweden,,,,no,no,no,no,no,yes,no,no
+Switzerland,,,,no,no,no,no,no,yes,no,no
+Syrian Arab Republic,3,,2,no,no,no,no,no,no,no,no
+Tajikistan,3,,7,no,yes,no,no,no,no,no,no
+Tanzania,,,,no,no,no,no,no,no,no,no
+Thailand,5,,,no,no,no,no,no,no,no,yes
+Timor-Leste,,,1,no,no,yes,no,no,no,no,no
+Togo,5,,,no,no,no,yes,no,no,no,no
+Tonga,,,,no,no,no,yes,no,yes,no,no
+Trinidad and Tobago,,,,no,no,no,no,no,no,no,no
+Tunisia,,,1,yes,no,no,no,yes,no,no,no
+Turkey,,,1,yes,no,no,no,no,no,no,no
+Turkmenistan,,,5,yes,yes,no,no,no,no,no,no
+Tuvalu,,,9,no,yes,no,yes,no,no,no,yes
+Uganda,6,,,no,yes,no,no,yes,no,no,no
+UK,,,,no,no,no,no,no,yes,no,yes
+Ukraine,2,,,no,no,no,no,no,no,no,no
+United Arab Emirates,3,1,,no,no,no,no,no,no,no,no
+Uruguay,9,,1,no,yes,no,yes,no,no,no,no
+USA,13,,50,no,no,no,yes,no,no,no,yes
+Uzbekistan,5,,12,yes,no,no,no,no,no,no,no
+Vanuatu,,,,no,yes,yes,no,no,no,no,no
+Vietnam,,,1,no,no,no,no,no,no,no,no
+Yemen,3,,,no,no,no,no,no,no,no,no
+Zambia,,,,no,yes,no,no,no,no,no,no
+Zimbabwe,7,,1,no,yes,yes,no,no,no,no,no
