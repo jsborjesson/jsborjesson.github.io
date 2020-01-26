@@ -7,20 +7,22 @@ A while back, I spent an entire evening categorizing the world's flags into diff
 
 # The data
 
-I decided to limit my dataset to the [193 UN member states](https://www.un.org/en/member-states/), because defining what a country is [is not as easy as it sounds](https://www.youtube.com/watch?v=4AivEQmfPpk), and this makes for a reasonably complete list. It covers the area marked in green:
+I decided to limit my dataset to the [193 UN member states][un_members], because defining what a country is [is not as easy as it sounds](https://www.youtube.com/watch?v=4AivEQmfPpk), and this makes for a reasonably complete list. It covers the area marked in green:
 
 ![UN Area][un_coverage]
 
 It does have some notable exceptions:
 
 - England, Scotland, Wales, and Northern Ireland which are only members as part of the UK
+- Western Sahara, which is a disputed territory
 - Palestine, which has a [decent flag][palestine]
 - The Vatican, [which doesn't][vatican]
-- Western Sahara, which is a disputed territory
 
 # Stripes
 
-**128 (66.32%)** of all flags in the world have _stripes_. Exactly **100 (52%)** of the flags have _horizontal stripes_, **35 (18%)** have _vertical stripes_.
+**128 (66%)** of all flags in the world have _stripes_. Exactly **100 (52%)** of the flags have _horizontal stripes_, **35 (18%)** have _vertical stripes_.[^not_crosses]
+
+[^not_crosses]: Not counting crosses as stripes in either direction.
 
 Only **7 (4%)** countries have _both vertical and horizontal stripes_:
 
@@ -206,7 +208,7 @@ When you use MS Paint to put a picture with a white background in the middle of 
 
 ## 2. Lebanon
 
-It'd be a difficult to let this one stay up on the fridge for long even if drawn by your own child.
+It'd be difficult to let this one stay up on the fridge for long even if drawn by your own child.
 
 ![Flag of Lebanon][lebanon]
 
@@ -217,6 +219,9 @@ This one is just dreary - the border is too wide, the moon is too narrow and the
 ![Flag of Maldives][maldives]
 
 # Sources
+
+- [Dataset](dataset) - I created this myself by going through all the flags filling it in. It was a great night.
+- [UN Member Countries][un_members]
 
 Spot a mistake? Please [let me know](https://github.com/alcesleo/alcesleo.github.io/issues/new) and I'll fix it and credit you in the post.
 
@@ -250,6 +255,7 @@ Spot a mistake? Please [let me know](https://github.com/alcesleo/alcesleo.github
 
 <!-- Other -->
 
+[un_members]: https://www.un.org/en/member-states/
 [un_coverage]: https://upload.wikimedia.org/wikipedia/commons/9/91/United_Nations_Members_%28green%E2%80%93grey_scheme%29.svg
 [kosovo]: https://upload.wikimedia.org/wikipedia/commons/1/1f/Flag_of_Kosovo.svg
 [antarctica]: https://upload.wikimedia.org/wikipedia/commons/b/bb/Proposed_flag_of_Antarctica_%28Graham_Bartram%29.svg
