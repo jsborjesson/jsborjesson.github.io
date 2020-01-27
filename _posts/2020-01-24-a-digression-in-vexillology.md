@@ -160,7 +160,9 @@ Only one of the UN Member States has a map of their own country on their flag, C
 
 ![Flag of Cyprus][cyprus]
 
-I think it's brilliant.
+I think it's brilliant.[^map_as_flag]
+
+[^map_as_flag]: Though I like them - maps are not [very good flag design.][roman_mars]
 
 Though they are not members of the UN, I still want to mention the flag of Kosovo, and Graham Bartram design of the flag of Antarctica, which I also really like:
 
@@ -259,4 +261,5 @@ Spot a mistake? Please [let me know](https://github.com/alcesleo/alcesleo.github
 [un_coverage]: https://upload.wikimedia.org/wikipedia/commons/9/91/United_Nations_Members_%28green%E2%80%93grey_scheme%29.svg
 [kosovo]: https://upload.wikimedia.org/wikipedia/commons/1/1f/Flag_of_Kosovo.svg
 [antarctica]: https://upload.wikimedia.org/wikipedia/commons/b/bb/Proposed_flag_of_Antarctica_%28Graham_Bartram%29.svg
+[roman_mars]: https://www.youtube.com/watch?v=pnv5iKB2hl4
 [dataset]: /public/resources/flags.csv
