@@ -224,7 +224,7 @@ It'd be difficult to let this one stay up on the fridge for long even if drawn b
 
 ## 3. Maldives
 
-This one is just dreary - the border is too wide, the moon is too narrow and the colors are depressing.
+This one is just dreary - the border is too wide, the moon is too narrow and the colors are depressing. It also happens to be the single flag in the world which has a moon but **not** a star. Based on this flag, you clearly need a star if you have a moon.
 
 ![Flag of Maldives][]
 
