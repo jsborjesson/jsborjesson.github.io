@@ -34,6 +34,8 @@ Only **7 (4%)** countries have _both vertical and horizontal stripes_:
 - [Oman][flag of oman]
 - [United Arab Emirates][flag of united arab emirates]
 
+You can see why this is not a popular option.
+
 **57 (30%)** countries have exactly _3 horizontal stripes_, and **23 (12%)** have exactly _3 vertical stripes_.
 
 ## Most stripey
@@ -150,9 +152,11 @@ Georgia really likes crosses and has 5:
 - [Uruguay][flag of uruguay]
 - [USA][flag of usa]
 
-I personally don't think that any of these are particularly good, except for **Liberia** which is a nicer and cleaner version of the US flag. Slim down the number of stripes, replace the star extravaganza with a single classy star, and make the square actually square and a more tasteful size, much better:
+I personally don't think that any of these are particularly good, except for **Liberia** which is a nicer and cleaner version of the US flag. Slim down the number of stripes (without going too far like [Chile][flag of chile]), replace the star extravaganza with a single classy star, and make the square actually square and a more tasteful size, much better:
 
 ![Flag of Liberia][]
+
+Though Liberia has one of the nicer _country_ flags in the world, this pedigree does **not** trickle down to its [_15 counties_][liberia counties].
 
 # Maps
 
@@ -200,7 +204,11 @@ Simple 3 stripes African colors, but diagonally - beautiful.
 
 I don't know if I even have to put a disclaimer here saying that this is only my personal opinion, because these are truly terrible flags.
 
-Dishonorable mentions: [Nepal][flag of nepal], [Sri Lanka][flag of sri lanka]
+Dishonorable mentions:
+
+- [Nepal][flag of nepal] which isn't even shaped like a flag
+- [Sri Lanka][flag of sri lanka] which has two flags in one - one okayish and one awful
+- [Turkmenistan][flag of turkmenistan] which rolled out a rug on its flag
 
 ## 1. Haiti
 
@@ -233,6 +241,7 @@ Spot a mistake? Please [let me know](https://github.com/alcesleo/alcesleo.github
 [cgp grey countries]: https://www.youtube.com/watch?v=4AivEQmfPpk
 [cgp grey uk]: https://www.youtube.com/watch?v=rNu8XDBSn10&feature=youtu.be
 [dataset]: /public/resources/flags.csv
+[liberia counties]: https://en.m.wikipedia.org/wiki/Flag_of_Liberia#County_flags
 [roman mars youtube]: https://www.youtube.com/watch?v=pnv5iKB2hl4
 [un coverage]: https://upload.wikimedia.org/wikipedia/commons/9/91/United_Nations_Members_%28green%E2%80%93grey_scheme%29.svg
 [un member states]: https://www.un.org/en/member-states/
