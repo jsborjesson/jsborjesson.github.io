@@ -7,6 +7,7 @@ AWS is a huge and complex place - this post aims to do nothing more than provide
 
 | Service  | Full name                   | Description                                                               |
 | :------- | :-------------------------- | :------------------------------------------------------------------------ |
+| ACM      | AWS Certificate Manager     | Issue and manage certificates to set up HTTPS on your domain names        |
 | EB       | Elastic Beanstalk           | Deploy and scale web applications and services                            |
 | EC2      | Elastic Compute Cloud       | The virtual servers that almost everything on AWS runs on sooner or later |
 | ECR      | Elastic Container Registry  | Upload your Docker containers, similar to DockerHub                       |
