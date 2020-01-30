@@ -7,7 +7,9 @@ When trying to set up a testing environment of [Keycloak](https://www.keycloak.o
 
 This guide will cover setting up a _testing_ environment of Keycloak on an AWS EC2 instance, and setting up HTTPS for it. The Keycloak installation described here will not yield a production ready environment, however the instructions for setting up HTTPS should be fairly similar.
 
-## Installing Keycloak
+## EC2
+
+**Installing Keycloak**
 
 ### Launch an EC2 instance
 
@@ -69,7 +71,9 @@ To let it keep running once you close your SSH connection, press <kbd>Ctrl</kbd>
 >
 > This means Keycloak is running correctly, but if you try to enter the Administration Console, it will simply give you an error saying **HTTPS required**. This is what we will set up next.
 
-## Setting up a domain name with a certificate
+## Route 53
+
+**Setting up a domain name with**
 
 The next thing we will do is to set up a domain for our Keycloak instance.[^domain_name]
 
@@ -77,9 +81,15 @@ The next thing we will do is to set up a domain for our Keycloak instance.[^doma
 
 Go to the **Route 53 Console**, and if you haven't already - **buy a domain name**. This might take a while to register.
 
+## ACM
+
+**Getting a certificate for HTTPS**
+
 Go to **Amazon Certificate Manager** and follow the instructions to request a public certificate for your domain. Since we use Amazon's own Route 53 to manage our domain, we can let it verify the domain by automatically creating a `CNAME` record for us.
 
-## Mapping our secure domain to our Keycloak server
+## Elastic Load Balancing
+
+**Mapping our secure domain to our Keycloak server**
 
 A certificate managed by ACM cannot be directly assigned to an EC2 instance, it has to be assigned to a Load Balancer (ELB).
 
