@@ -5,7 +5,7 @@ title: Setting up Keycloak on AWS
 
 When trying to set up a testing environment of [Keycloak](https://www.keycloak.org/) on AWS, I bounced between a bunch of different documentation, blog posts and guides setting it up. It was fairly frustrating as all of the guides I found either didn't cover all of what I wanted to do, were slightly outdated or didn't work in some minor way, or simply lead me down the wrong rabbit holes. I decided to document what worked for me in the end.
 
-This guide will cover setting up a _testing_ environment of Keycloak on an AWS EC2 instance, and setting up HTTPS for it. The Keycloak installation described here will not yield a production ready environment, however the instructions for setting up HTTPS should work for that scenario as well.
+This guide will cover setting up a _testing_ environment of Keycloak on an AWS EC2 instance, and setting up HTTPS for it. The Keycloak installation described here will not yield a production ready environment, however the instructions for setting up HTTPS should be fairly similar.
 
 ## Installing Keycloak
 
@@ -61,7 +61,7 @@ This will start the server in your current terminal session.
 
 **You can stop the server by pressing <kbd>Ctrl</kbd> + <kbd>C</kbd> or closing the terminal session.**
 
-To let it keep running once you close your SSH connection, press <kbd>Ctrl</kbd> + <kbd>Z</kbd> (which pauses the process), then run `bg` (which resumes it in the background) and `disown` (which detaches it from your job list).
+To let it keep running once you close your SSH connection, press <kbd>Ctrl</kbd> + <kbd>Z</kbd> _(which pauses the process)_, then run `bg` _(which resumes it in the background)_ and `disown` _(which detaches it from your job list)_.
 
 > Now you should be able to access Keycloak over **HTTP**. Get the **Public DNS (IPv4)** address from the EC2 Console, and enter it in your browser, followed by `:8080`, and make sure it works.
 >
@@ -71,7 +71,9 @@ To let it keep running once you close your SSH connection, press <kbd>Ctrl</kbd>
 
 ## Setting up a domain name with a certificate
 
-The next thing we will do is to set up a domain for our Keycloak instance.
+The next thing we will do is to set up a domain for our Keycloak instance.[^domain_name]
+
+[^domain_name]: _Many guides I was trying to follow suggest using [Let's Encrypt](https://letsencrypt.org/) to get a certificate directly on the EC2 instance. However, at the time of writing (2020-01-30), the EC2 domains are blacklisted by Let's Encrypt. This is for good reason, since they can belong to you one day, and someone else the next._
 
 Go to the **Route 53 Console**, and if you haven't already - **buy a domain name**. This might take a while to register.
 
