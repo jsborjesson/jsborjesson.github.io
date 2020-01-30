@@ -18,3 +18,4 @@ AWS is a huge and complex place - this post aims to do nothing more than provide
 | RDS      | Relational Database Service    | Run SQL databases                                                             |
 | Route 53 | Route 53                       | DNS - Manage domain names                                                     |
 | S3       | Simple Storage Service         | Store and host files                                                          |
+| VPC      | Virtual Private Cloud          | The networking layer for EC2. Deals with subnets and Security Groups.         |
