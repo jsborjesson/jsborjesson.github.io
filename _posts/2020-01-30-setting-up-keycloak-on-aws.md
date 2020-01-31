@@ -73,7 +73,7 @@ To let it keep running once you close your SSH connection, press <kbd>Ctrl</kbd>
 
 ## Route 53
 
-**Setting up a domain name with**
+**Setting up a domain name**
 
 The next thing we will do is to set up a domain for our Keycloak instance.[^domain_name]
 
@@ -89,7 +89,7 @@ Go to **Amazon Certificate Manager** and follow the instructions to request a pu
 
 ## Elastic Load Balancing
 
-**Mapping our secure domain to our Keycloak server**
+**Mapping our certificate to our Keycloak server**
 
 A certificate managed by ACM cannot be directly assigned to an EC2 instance, it has to be assigned to a Load Balancer (ELB).
 
@@ -128,6 +128,8 @@ Register your instance as a Target for the Load Balancer, and **make sure to set
 > Your Keycloak instance should now allow you to log in as admin with the secure connection, but your browser will tell you that the website is insecure.
 
 ## Route 53
+
+**Routing traffic to your Load Balancer**
 
 Now we are ready to assign our proper domain name to our secure Load Balancer.
 
