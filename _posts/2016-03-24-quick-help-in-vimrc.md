@@ -16,3 +16,9 @@ Put this in `.vim/after/ftplugin/vim.vim`:
 nnoremap <buffer> K :help <C-r><C-w><CR>
 xnoremap <buffer> K "xy:help <C-r>x<CR>
 ```
+
+## Update
+
+_2020-08-13_
+
+This should be done by setting `keywordprg=:help`, which is already the default in NeoVim.
