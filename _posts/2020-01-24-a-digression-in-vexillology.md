@@ -230,7 +230,7 @@ This one is just dreary - the border is too wide, the moon is too narrow and the
 
 # Sources
 
-- [Dataset](dataset) - I created this myself by going through all the flags filling it in. It was a great night.
+- [Dataset][dataset] - I created this myself by going through all the flags filling it in. It was a great night.
 - [UN Member States][]
 - Every single world flag
 
