@@ -283,7 +283,7 @@ There are a few things to take note of here:
 
 ## Full example
 
-Now we have a class that behaves well in every equality situation in Ruby-land. Did I miss anything? Please [open an issue](https://github.com/alcesleo/alcesleo.github.io/issues/new).
+Now we have a class that behaves well in every equality situation in Ruby-land. Did I miss anything? Please [open an issue](https://github.com/jsborjesson/jsborjesson.github.io/issues/new).
 
 ```ruby
 class T

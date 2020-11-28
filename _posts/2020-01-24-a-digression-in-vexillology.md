@@ -234,7 +234,7 @@ This one is just dreary - the border is too wide, the moon is too narrow and the
 - [UN Member States][]
 - Every single world flag
 
-Spot a mistake? Please [let me know](https://github.com/alcesleo/alcesleo.github.io/issues/new) and I'll fix it and credit you in the post.
+Spot a mistake? Please [let me know](https://github.com/jsborjesson/jsborjesson.github.io/issues/new) and I'll fix it and credit you in the post.
 
 <!-- Links -->
 

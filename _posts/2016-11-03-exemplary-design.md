@@ -7,7 +7,7 @@ I recently wrote a simple command line tool, the functionality of which is
 unimpressive and uninteresting, but it illustrates a principle I've had on my
 mind for a while.
 
-The tool is called [in that case](https://github.com/alcesleo/in_that_case) and
+The tool is called [in that case](https://github.com/jsborjesson/in_that_case) and
 converts between different capitalization standards:
 
 ```bash
@@ -28,7 +28,7 @@ as in it setting an example, not it necessarily being good)
 
 ## Discovering the project
 
-[Imagine you come across this tool](https://github.com/alcesleo/in_that_case),
+[Imagine you come across this tool](https://github.com/jsborjesson/in_that_case),
 it does what you want but is lacking one of the capitalization styles that you
 need. You might think that "there's probably just one file with a huge
 if-statement, maybe I can try to extend it...".
@@ -191,7 +191,7 @@ Options:
   --snake        Convert to snake_case.
 ```
 
-Also already there apparently. You [commit](https://github.com/alcesleo/in_that_case/commit/85039bbeb03d4ac19265517efe5d94f3b1cc00f1) your changes and move on with your life.
+Also already there apparently. You [commit](https://github.com/jsborjesson/in_that_case/commit/85039bbeb03d4ac19265517efe5d94f3b1cc00f1) your changes and move on with your life.
 
 ## Motivation
 

@@ -66,4 +66,4 @@ Using <kbd>Ctrl</kbd> + <kbd>C</kbd> will also get you out of insert mode, and u
 
 I've tried playing with the timeout settings to no avail, and `<C-c>` does not exactly equal escape, so mapping escape to that might cause some other issues. I hope understanding this issue can reduce the frustration for someone else dealing with this hiccup, but currently I don't know a **reliable** way of fixing it other than being aware and carefully avoiding it.
 
-If anyone knows a way to fix this for good, **please** [let me know](https://github.com/alcesleo/alcesleo.github.io/issues/new).
+If anyone knows a way to fix this for good, **please** [let me know](https://github.com/jsborjesson/jsborjesson.github.io/issues/new).

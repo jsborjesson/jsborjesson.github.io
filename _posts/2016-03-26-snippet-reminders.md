@@ -18,7 +18,7 @@ UltiSnips but they should be trivial to adapt to any other snippet system.
 alias_method :{new}, :{old}
 ```
 
-[Source](https://github.com/alcesleo/dotfiles/blob/d72a44c8eadf9c61a9e73bd08b1b29c6ee6ff387/nvim/UltiSnips/ruby.snippets#L46-L52)
+[Source](https://github.com/jsborjesson/dotfiles/blob/d72a44c8eadf9c61a9e73bd08b1b29c6ee6ff387/nvim/UltiSnips/ruby.snippets#L46-L52)
 
 Before this, I could never remember which argument came first.
 
@@ -28,7 +28,7 @@ Before this, I could never remember which argument came first.
 #!/usr/bin/env {bash}
 ```
 
-[Source](https://github.com/alcesleo/dotfiles/blob/d72a44c8eadf9c61a9e73bd08b1b29c6ee6ff387/nvim/UltiSnips/all.snippets#L10-L12)
+[Source](https://github.com/jsborjesson/dotfiles/blob/d72a44c8eadf9c61a9e73bd08b1b29c6ee6ff387/nvim/UltiSnips/all.snippets#L10-L12)
 
 I could never seem to get the first `#`, `!`, `/` in the right order, and then
 I had to remember which path `env` was in - no more!
@@ -47,7 +47,7 @@ This one is a bit bigger, the cron syntax is very succinct but unless you use it
 # +------------- min (0 - 59)}
 ```
 
-[Source](https://github.com/alcesleo/dotfiles/blob/d72a44c8eadf9c61a9e73bd08b1b29c6ee6ff387/nvim/UltiSnips/crontab.snippets)
+[Source](https://github.com/jsborjesson/dotfiles/blob/d72a44c8eadf9c61a9e73bd08b1b29c6ee6ff387/nvim/UltiSnips/crontab.snippets)
 
 The few times I use cron, this is a lifesaver - I also have the entire
 help-comment as a placeholder so in case I just want it there while typing it

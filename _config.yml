@@ -2,11 +2,11 @@
 permalink:           pretty
 
 # Setup
-title:               alcesleo
+title:               jsborjesson
 tagline:             Yet another dev blog
-url:                 https://alcesleo.github.io/
+url:                 https://jsborjesson.github.io/
 paginate:            5
-baseurl:             "http://alcesleo.github.io"
+baseurl:             "https://jsborjesson.github.io"
 
 # Assets
 #
@@ -18,12 +18,11 @@ sass:
 # About/contact
 author:
   name:              Jimmy Börjesson
-  url:               https://github.com/alcesleo
-  email:             alcesleo@gmail.com
+  url:               https://github.com/jsborjesson
 
 # Custom vars
 github:
-  repo:              https://github.com/alcesleo/alcesleo.github.io
+  repo:              https://github.com/jsborjesson/jsborjesson.github.io
 
 # Gems
 gems:

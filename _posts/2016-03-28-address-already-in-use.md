@@ -21,5 +21,5 @@ to the port you give it, I call it `portkill` - Here it is in action:
 
 It gets the id of the process listening on the port using `lsof -t -i:4000`,
 then simply `kill`s that process. Here is the [source of
-portkill](https://github.com/alcesleo/dotfiles/blob/master/bin/portkill), with
+portkill](https://github.com/jsborjesson/dotfiles/blob/master/bin/portkill), with
 a tiny bit of error handling.
